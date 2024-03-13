@@ -6,4 +6,6 @@ int main(){
 
     printf("la liste des département de la région ile de france : ");
     search_tab(idf, 8);
+
+    new_line
 }
