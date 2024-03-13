@@ -6,4 +6,6 @@ int main(){
 
     printf("La liste des département d'Île-de-France est ");
     rech_tab(idf, 8);
+
+    new_line
 }
