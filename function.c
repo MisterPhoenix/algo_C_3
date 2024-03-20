@@ -17,4 +17,15 @@ void affich_depart(int t[], int len){
     }
 }
 
-int search_depart(int t[]){}
+int search_depart(int t[], int len, int x){
+    for (int i = 0; i < len; i = i++){
+        if(t[i] == x){
+            printf("département trouvé : %d\n", x);
+            return 1;
+        } else{
+            printf("Element non trouvé %d\n", x);
+            return 0;
+        }
+    }
+    
+}

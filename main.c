@@ -13,4 +13,8 @@ int main(){
     affich_depart(idf, 8);
 
     printf("\n");
+
+    search_depart(aura, 12, 69);
+
+    printf("\n");
 }
