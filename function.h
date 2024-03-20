@@ -3,7 +3,7 @@
 
 int lenght(int t[]);
 
-void affich_depart(int t[], int);
+void affich_depart(int t[], int len);
 
 int add_value(int t[]);
 
