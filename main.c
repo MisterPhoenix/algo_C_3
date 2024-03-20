@@ -14,7 +14,7 @@ int main(){
 
     printf("\n");
 
-    search_depart(aura, 12, 69);
+    search_depart(aura, 12, 3);
 
     printf("\n");
 }
