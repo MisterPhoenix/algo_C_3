@@ -29,15 +29,15 @@ int search_depart(int t[], int len, int x){
     return 0;
 }
 
-int maxt(){
+int maxt(int t[]){
     int t[TMAX];
     int x = 0; int i = 1;
 
     do{
-        scanf("%d", x);
+        scanf("%d", &x);
         t[i] = x;
         i++;
-    } while (x!= -1 || i < TMAX);
+    } while (x!= -1 && i < TMAX);
     t[i] = '\0';
     
 }

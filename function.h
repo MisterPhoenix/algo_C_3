@@ -11,6 +11,6 @@ void affich_depart(int t[], int len);
 
 int search_depart(int t[], int len, int x);
 
-int maxt();
+int maxt(int t[]);
 
 #endif
