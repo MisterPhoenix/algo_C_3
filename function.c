@@ -16,3 +16,5 @@ void affich_depart(int t[], int len){
         printf("[%i]", t[i]);
     }
 }
+
+int search_depart(){}
