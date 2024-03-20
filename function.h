@@ -7,4 +7,6 @@ void affich_depart(int t[], int len);
 
 //int add_value(int t[]);
 
+int search_depart();
+
 #endif
