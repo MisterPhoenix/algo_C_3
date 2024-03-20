@@ -25,4 +25,6 @@ int main(){
     printf("\n");
 
     search_depart(aura, 12, 42);
+
+    maxt();
 }

@@ -28,3 +28,16 @@ int search_depart(int t[], int len, int x){
     printf("Element non trouvé : %d\n", x);
     return 0;
 }
+
+int maxt(){
+    int t[TMAX];
+    int x = 0; int i = 1;
+
+    do{
+        scanf("%d", x);
+        t[i] = x;
+        i++;
+    } while (x!= -1 || i < TMAX);
+    t[i] = '\0';
+    
+}
