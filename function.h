@@ -1,20 +1,10 @@
 #ifndef FUNCTION_H
 #define FUNCTION_H
 
-int lenght(int t[]){
-    int len = 0;
+int lenght(int t[]);
 
-    for(int i = 0; t[i] != '\0'; i++){
-        len++;
-    }
+void affich_depart(int t[], int);
 
-    return len;
-}
-
-void affich_depart(int t[], int len){
-    for(int i = 0; i < len; i = i+1){
-        printf("[%i]", t[i]);
-    }
-}
+int add_value(int t[]);
 
 #endif
