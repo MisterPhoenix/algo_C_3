@@ -18,6 +18,8 @@ int main(){
 
     printf("\n");
 
+    printf("la liste des département d'Auvergne-Rhône-Alpes :");
+
     affich_depart(aura, 12);
 
     printf("\n");
