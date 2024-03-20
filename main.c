@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "function.h"
 
 int main(){
     int idf[] = {75, 77, 78, 91, 92, 93, 94, 95};
