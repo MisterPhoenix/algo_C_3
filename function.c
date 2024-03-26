@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "function.h"
 
+//longueur du tableau
 int lenght(int t[]){
     int len = 0;
 
@@ -11,12 +12,14 @@ int lenght(int t[]){
     return len;
 }
 
+//affichage des départements dans le tableau
 void affich_depart(int t[], int len){
     for(int i = 0; i < len; i = i+1){
         printf("[%i]", t[i]);
     }
 }
 
+//fonction de recherche de départmements
 int search_depart(int t[], int len, int x){
     for (int i = 0; i < len; i++){
         if(t[i] == x){
