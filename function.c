@@ -30,7 +30,7 @@ int search_depart(int t[], int len, int x){
 }
 
 int maxt(int t[]){
-    int t[TMAX];
+    t[TMAX];
     int x = 0; int i = 1;
 
     do{
