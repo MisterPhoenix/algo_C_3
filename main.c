@@ -29,4 +29,6 @@ int main(){
     int disp[TMAX];
 
     maxt(disp);
+
+    affich_depart(disp, TMAX);
 }

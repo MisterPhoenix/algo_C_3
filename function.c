@@ -34,7 +34,7 @@ int search_depart(int t[], int len, int x){
 
 int maxt(int t[]){
     t[TMAX];
-    int x = 0; int i = 1;
+    int x = 0; int i = 0;
 
     do{
         printf("Entrez un nombre : %d\n", x);
