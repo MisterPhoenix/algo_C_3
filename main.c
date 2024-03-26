@@ -26,5 +26,5 @@ int main(){
 
     search_depart(aura, 12, 42);
 
-    int tab[TMAX];
+    int disp[TMAX];
 }
