@@ -27,4 +27,6 @@ int main(){
     search_depart(aura, 12, 42);
 
     int disp[TMAX];
+
+    maxt(disp);
 }

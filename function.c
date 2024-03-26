@@ -37,10 +37,10 @@ int maxt(int t[]){
     int x = 0; int i = 1;
 
     do{
+        printf("Entrez un nombre : %d\n", x);
         scanf("%d", &x);
         t[i] = x;
         i++;
     } while (x!= -1 && i < TMAX);
     t[i] = '\0';
-    
 }
