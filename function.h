@@ -3,6 +3,8 @@
 
 #define TMAX 100
 
+//initialisation des différentes fonctions
+
 int lenght(int t[]);
 
 void affich_depart(int t[], int len);
