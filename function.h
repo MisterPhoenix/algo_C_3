@@ -13,6 +13,6 @@ int search_depart(int t[], int len, int x);
 
 int maxt(int t[]);
 
-int add_depart(int t[], int y);
+int add_depart(int t[], int len, int y);
 
 #endif
