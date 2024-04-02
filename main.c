@@ -44,4 +44,8 @@ int main(){
     maxt(disp);
 
     affich_depart(disp, TMAX);
+
+    add_depart(idf, TMAX, 78);
+
+    affich_depart(idf, TMAX);
 }
