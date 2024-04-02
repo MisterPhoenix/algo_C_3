@@ -41,7 +41,7 @@ int main(){
 
     //fonction remplissage d'un tableau
 
-    maxt(disp);
+   // maxt(disp);
 
     affich_depart(disp, TMAX);
 
