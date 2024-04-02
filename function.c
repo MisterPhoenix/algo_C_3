@@ -47,4 +47,4 @@ int maxt(int t[]){
 }
 
 //fonction ajout d'un département dans un tableau
-int add_depart(int t[], int x){}
+int add_depart(int t[], int y){}
