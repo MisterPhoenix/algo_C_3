@@ -32,6 +32,7 @@ int search_depart(int t[], int len, int x){
     return 0;
 }
 
+//fonction de création d'un tableau
 int maxt(int t[]){
     t[TMAX];
     int x = 0; int i = 0;
@@ -44,3 +45,6 @@ int maxt(int t[]){
     } while (x!= -1 && i < TMAX);
     t[i] = '\0';
 }
+
+//fonction ajout d'un département dans un tableau
+int add_depart(int t[], int len, int x){}
